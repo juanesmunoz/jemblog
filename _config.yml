@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://yourname.github.io/ 
-root: /
+url: https://juanesmunoz.github.io/ 
+root: /jemblog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,10 +101,3 @@ deploy:
   type: git
   repo: https://github.com/juanesmunoz/jemblog.git
   branch: master
-  token: ''
-  message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
-  name: juanesmunoz
-  email: juanestebanmunoz@hotmail.com
-  extend_dirs: /
-  ignore_hidden: false # default is true
-  ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
