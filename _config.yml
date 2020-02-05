@@ -102,7 +102,7 @@ deploy:
   repo: https://github.com/juanesmunoz/jemblog.git
   branch: master
   token: ''
-  message: {{ now('YYYY-MM-DD HH:mm:ss') }}
+  message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
   name: juanesmunoz
   email: juanestebanmunoz@hotmail.com
   extend_dirs: [extend directory]
