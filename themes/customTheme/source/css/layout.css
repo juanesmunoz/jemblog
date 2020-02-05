@@ -1,0 +1,31 @@
+ * {
+    box-sizing: border-box;
+}
+
+.conth {
+	background-color: #DBB561;
+
+	
+}
+
+.back { 
+  min-height: 600px;
+  margin: 40px;
+  display: block;
+  background-color: #DBB561;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.back::before {
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: 50% 0;
+  z-index: -1;
