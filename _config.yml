@@ -100,4 +100,4 @@ theme: customTheme
 deploy:
   type: git
   repo: https://github.com/juanesmunoz/jemblog.git
-  branch: master
+  branch: gh-pages
