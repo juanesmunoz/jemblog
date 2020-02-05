@@ -105,6 +105,6 @@ deploy:
   message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
   name: juanesmunoz
   email: juanestebanmunoz@hotmail.com
-  extend_dirs: [extend directory]
+  extend_dirs: /
   ignore_hidden: false # default is true
   ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
